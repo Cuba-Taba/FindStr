@@ -4,6 +4,7 @@ import sys
 print("Number of arguments: ", len(sys.argv))
 print("This is the name of the script: ", sys.argv[0])
 print("The arguments are: " , str(sys.argv))
+
 if (len(sys.argv) < 3):
     exit("arguments not found")
 
